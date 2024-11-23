@@ -58,7 +58,7 @@ router.get('/jiggasa', async (req, res) => {
     }
 
     const locals = {
-      title: "Vitti360 | Welcome",
+      title: "QTutor | Welcome",
       description: "কিছু জিজ্ঞাসা - যাচাই করো ভিত্তি"
     };
 
@@ -84,7 +84,7 @@ router.get('/jiggasa', async (req, res) => {
 router.get('/tutors', async (req, res) => {
   try {
     const locals = {
-      title: "Vitti360 | Welcome",
+      title: "QTutor | Welcome",
       description: "Simple Site created with NodeJs, Express & MongoDb."
     };
 
@@ -136,7 +136,7 @@ router.get('/tutors', async (req, res) => {
 router.get('/reg-tutor', async (req, res) => {
   try {
     const locals = {
-      title: "Vitti360 | Welcome",
+      title: "QTutor | Welcome",
       description: "Simple Site created with NodeJs, Express & MongoDb."
     }
 
@@ -178,7 +178,7 @@ router.post('/reg-tutor', async (req, res) => {
 
       // Send custom email
       const subject = 'New Tutor Registration';
-      const text = `A new tutor has registered:\n\nName: ${req.body.name}\nTag: ${req.body.tag}\nInstitution: ${req.body.institution}\nDepartment: ${req.body.dept}\nHSC Batch: ${req.body.hsc}\nCollege: ${req.body.college}\nGo to Admin Panel:\nhttps://www.vitti360.xyz/admin`;
+      const text = `A new tutor has registered:\n\nName: ${req.body.name}\nTag: ${req.body.tag}\nInstitution: ${req.body.institution}\nDepartment: ${req.body.dept}\nHSC Batch: ${req.body.hsc}\nCollege: ${req.body.college}\nGo to Admin Panel:\nhttps://qtutor.onrender.com/admin`;
 
       await sendMail('saimaneeti367@gmail.com', subject, text);
 
