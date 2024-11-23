@@ -1,9 +1,9 @@
-# Vitti360
-## A centralized system for Tutor searching, AI question solving and Job Preparation
+# QTutor
+## A centralized system for Tutor searching, AI question solving and many more...
 
 
-### Website : https://www.vitti360.xyz/
+### Website : https://qtutor.onrender.com/
 
 
-### Register as Tutor : https://www.vitti360.xyz/reg-tutor
+### Register as Tutor : https://qtutor.onrender.com/reg-tutor
 
