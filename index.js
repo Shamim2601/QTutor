@@ -11,7 +11,7 @@ const fileUpload = require('express-fileupload');
 const connectDB = require('./server/config/db');
 
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT = 5000;
   
 // Connect to DB
 connectDB();
@@ -26,7 +26,7 @@ app.use(session({
   resave: false,
   saveUninitialized: true,
   store: MongoStore.create({
-    mongoUrl: process.env.MONGODB_URI
+    mongoUrl: 'mongodb+srv://shamim2601:6EkN3FJrQWhgoMX9@cluster0.o0etpjc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
   }),
 }));
 

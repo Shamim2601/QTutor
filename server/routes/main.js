@@ -224,7 +224,7 @@ router.post('/ai-text-query', async (req, res) => {
   const textQuery = "Give answer to the question mentioning the question at first:\n" + req.body.query;
 
   try {
-    const apiKey = process.env.GOOGLE_API_KEY;
+    const apiKey = 'AIzaSyCBtqrjLMvPjDMLbOZq0hMq_fLlfEhe9Hk';
 
     const response = await axios({
       url: `https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=${apiKey}`,
