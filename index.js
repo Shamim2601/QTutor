@@ -26,7 +26,7 @@ app.use(session({
   resave: false,
   saveUninitialized: true,
   store: MongoStore.create({
-    mongoUrl: 'mongodb+srv://shamim2601:6EkN3FJrQWhgoMX9@cluster0.o0etpjc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
+    mongoUrl: 'mongodb+srv://shamim2601:6EkN3FJrQWhgoMX9@cluster0.o0etpjc.mongodb.net/'
   }),
 }));
 
